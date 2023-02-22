@@ -77,7 +77,8 @@ section {
 .textright {
   width: 65%;
 }
-img {
+img,
+video {
   max-width: 100%;
 }
 h4,
@@ -135,7 +136,7 @@ h5 {
   display: none;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 680px) {
   .mobile {
     display: inherit;
   }
@@ -194,5 +195,44 @@ h5 {
   }
   a {
     color: royalblue;
+  }
+  .gray {
+    background-color: white;
+  }
+  .section-header {
+    margin-bottom: 16px;
+  }
+  .info-heading {
+    font-size: 30px;
+    font-weight: 1000;
+  }
+  .section3flex {
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 24px;
+    padding-right: 16px;
+    gap: 8px;
+  }
+  .thirdflexbox {
+    flex-flow: column;
+    background-color: lightgray;
+    width: 100%;
+    font-size: larger;
+    padding-left: 16px;
+    color: rgb(73, 73, 73);
+  }
+  .thirdflexbox > img,
+  .thirdflexbox > p {
+    display: none;
+  }
+  .visible {
+    display: inherit;
+  }
+  footer {
+    width: 100%;
+    color: gray;
+  }
+  footer > h5 {
+    margin: auto;
   }
 }
