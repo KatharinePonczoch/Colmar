@@ -21,7 +21,9 @@ nav {
   justify-content: right;
   margin-left: auto;
 }
-
+h1 {
+  font-weight: boldest;
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -137,7 +139,7 @@ h5 {
   .mobile {
     display: inherit;
   }
-  h1 {
+  h1#schoolname {
     display: none;
   }
   header {
@@ -147,5 +149,50 @@ h5 {
   }
   nav {
     display: none;
+  }
+  .banner-box.flex {
+    flex-direction: column;
+  }
+  .rightbox {
+    width: 100%;
+    margin-left: 8px;
+  }
+  .large-image-box {
+    width: 100%;
+  }
+  button {
+    background-color: rgb(126, 126, 126);
+    font-weight: bolder;
+    width: 95%;
+    margin: auto;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: 32px;
+    margin-top: 24px;
+  }
+  .textbox {
+    margin-left: 0px;
+  }
+  .disappear {
+    display: none;
+  }
+  /* .smallbox-image {
+    width: 100%;
+    margin: 16px;
+  } */
+  .rightbox {
+    width: 100%;
+  }
+  .smallbox {
+    flex-direction: column;
+  }
+  .textright {
+    margin-bottom: 64px;
+  }
+  .textright:last-child {
+    margin-bottom: 32px;
+  }
+  a {
+    color: royalblue;
   }
 }
