@@ -3,7 +3,7 @@ html {
     "Lucida Sans", Arial, sans-serif;
 }
 header {
-  display: inline-block;
+  /* display: inline-block; */
   background-color: white;
 }
 #schoolname {
@@ -21,6 +21,7 @@ nav {
   justify-content: right;
   margin-left: auto;
 }
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -120,6 +121,31 @@ button {
   color: rgb(80, 79, 79);
 }
 
-footer {
-  display: inline-block;
+.footer-right {
+  justify-content: right;
+  margin-left: auto;
+}
+h5 {
+  padding-top: 5px;
+  font-size: 16px;
+}
+.mobile {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .mobile {
+    display: inherit;
+  }
+  h1 {
+    display: none;
+  }
+  header {
+    justify-content: space-evenly;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  nav {
+    display: none;
+  }
 }
