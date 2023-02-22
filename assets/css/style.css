@@ -5,7 +5,6 @@ html {
 header {
   display: inline-block;
   background-color: white;
-  /* padding: 16px 0px 16px 0px; */
 }
 #schoolname {
   font-size: 32px;
@@ -31,11 +30,12 @@ li {
   float: right;
 }
 li a {
-  /* display: block; */
-  /* text-align: right; */
   padding: 16px;
-
   color: darkslategray;
+}
+li p {
+  font-size: 16px;
+  padding: 16px;
 }
 a {
   text-decoration: none;
@@ -68,7 +68,7 @@ section {
 }
 .smallbox-image {
   width: 35%;
-  padding: 0px 16px 16px 16px;
+  padding: 16px 16px 16px 16px;
   height: auto;
 }
 .textright {
@@ -89,16 +89,37 @@ button {
   padding-top: 8px;
   padding-bottom: 8px;
 }
-.section3 {
+.gray {
   background-color: lightgray;
+}
+.section3flex {
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 72px;
+  padding-left: 72px;
+  padding-bottom: 32px;
+  gap: 16px;
 }
 
 .thirdflexbox {
-  flex-wrap: wrap;
-  width: 30%;
+  flex-flow: row;
+  background-color: white;
+  width: 32%;
 }
 .section-header {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  margin-top: 32px;
+  margin-bottom: 32px;
   text-align: center;
+}
+.right {
+  justify-content: right;
+  text-align: right;
+}
+
+.graywords {
+  color: rgb(80, 79, 79);
+}
+
+footer {
+  display: inline-block;
 }
